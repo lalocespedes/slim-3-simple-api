@@ -1,0 +1,26 @@
+{
+    "name": "lalocespedes/lalocespedes-slim",
+    "description": "medic-ly",
+    "authors": [
+        {
+            "name": "Eduardo Cespedes",
+            "email": "lalocespedes@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.2",
+        "slim/slim": "^3.1",
+        "illuminate/database": "^5.2",
+        "symfony/var-dumper": "^3.0",
+        "respect/validation": "^1.0",
+        "monolog/monolog": "^1.17"
+    },
+    "autoload": {
+      "psr-4": {
+        "ly\\": "app"
+      }
+    },
+    "config": {
+      "optimize-autoloader": true
+    }
+}
